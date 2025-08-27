@@ -9,7 +9,7 @@
     "lint": "eslint",
     "preview": "npm run pages:build && wrangler pages dev",
     "pages:build": "npx @cloudflare/next-on-pages",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "deploy": "git push && npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
     "@nanostores/react": "^1.0.0",

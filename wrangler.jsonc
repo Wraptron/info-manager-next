@@ -1,6 +1,6 @@
 {
     "name": "info-manager-next",
-    "compatibility_date": "2025-09-23",
+    "compatibility_date": "2025-07-26",
     "compatibility_flags": [
       "nodejs_compat"
     ],
